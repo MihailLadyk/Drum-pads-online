@@ -142,6 +142,7 @@ button {
     margin: 5px;
     width: 100px;
     height: 100px;
+    width: 29%;
 }
 
 .button1 {
@@ -465,7 +466,7 @@ h3 {
     border-width: 5px;
     border: #50555C;
     display: inline-block;
-    width: 340px;
+    width: 320px;
     height: 370px;
     background-color: rgb(11, 12, 116);
 }
@@ -484,7 +485,7 @@ button {
     border: none;
     border-width: 1.5px;
     margin: 5px;
-    width: 100px;
+    width: 29%;
     height: 100px;
     transition: 0.5s;
 }
@@ -750,7 +751,9 @@ margin-left: 50px;
     .theme__changer {
         display: none;
     }
-
+.launchpad {
+    margin-left: 340px;
+}
 
 }
  
