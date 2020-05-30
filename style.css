@@ -1,0 +1,756 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #575757;
+}
+
+
+.launchpad {
+    /* background-color: #246d24; */
+    margin-left: 10%;
+    width: 338px;
+    height: 375px;
+    background-color: darkgray;
+    display: inline-block;
+}
+
+
+.other {
+font-size: 33px;
+margin-left: 110px;
+}
+
+
+
+
+.guitars {
+    font-size: 33px;
+margin-left: 110px;
+}
+
+
+
+.launchpad {
+    /* background-color: #246d24; */
+    margin-left: 10%;
+    display: inline-block;
+    width: 338px;
+    height: 375px;
+    background-color: darkgray;
+}
+
+.drums {
+    font-size: 33px;
+    margin-left: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+.theme__changer {
+    width: 75px;
+    height: 75px;
+    background-color: yellow;
+    opacity: 1;
+    margin-top: 300px;
+  
+}
+.modal {
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    margin-top: 375px;
+    opacity: 0.7;
+    
+    
+}
+.modal__opn {
+    width: 200px;
+    height: 300px;
+    background-color: black;
+   
+
+}
+.wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+
+    top: 0;
+display: none;
+}
+
+.red {
+width: 125px;
+height: 125px;
+display: inline-block;
+background-color: rgb(214, 34, 34);
+margin: 5px;
+margin-left: 50px;
+}
+.blue {
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+    background-color: rgb(32, 32, 182);
+    margin: 5px;
+    margin-left: 50px;
+}
+.green {
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+    background-color: rgb(35, 155, 35);
+    margin: 5px;
+    margin-left: 50px;
+}
+.gray {
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+    background-color: rgb(94, 94, 94);
+    margin: 5px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* стили для кнопок */
+button {
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(63, 61, 61, 0.5);
+    /* Параметры тени */
+    border: none;
+    border-width: 1.5px;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.button1 {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #ADFF2F;
+}
+
+.button2 {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #7FFF00;
+}
+
+.button3 {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #7CFC00;
+}
+
+.button4 {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #98FB98;
+}
+
+.button5 {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #90EE90;
+}
+
+.button6 {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #98FB98;
+}
+
+.button7 {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #228B22;
+}
+
+.button8 {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #008600;
+}
+
+.button9 {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #008600;
+}
+
+button:hover {
+    background-color: #0a580a;
+}
+
+
+
+
+
+
+
+#button1__GUITARS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(255, 54, 47);
+}
+
+#button2__GUITARS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(255, 0, 0);
+}
+
+#button3__GUITARS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(240, 18, 11);
+}
+
+#button4__GUITARS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(255, 109, 109);
+}
+
+#button5__GUITARS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(228, 80, 80);
+}
+
+#button6__GUITARS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(255, 104, 104);
+}
+
+#button7__GUITARS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(139, 34, 34);
+}
+
+#button8__GUITARS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #860000;
+}
+
+#button9__GUITARS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #860000;
+}
+
+
+
+
+
+
+
+
+#button1__DRUMS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(47, 78, 255);
+}
+
+#button2__DRUMS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(47, 0, 255);
+}
+
+#button3__DRUMS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(80, 11, 240);
+}
+
+#button4__DRUMS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(123, 109, 255);
+}
+
+#button5__DRUMS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(107, 80, 228);
+}
+
+#button6__DRUMS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(144, 104, 255);
+}
+
+#button7__DRUMS{
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(50, 34, 139);
+}
+
+#button8__DRUMS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #1d0086;
+}
+
+#button9__DRUMS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #190086;
+}
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #130b42;
+}
+
+
+
+.volume {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* _________________________________________________________________________________________________ */
+
+input[type=range] {
+    border-radius: 20px;
+    -webkit-appearance: none;
+    width: 30%;
+    margin: 0 auto;
+    display: inherit;
+    margin-top: 100px;
+}
+  
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    background: #50555C;
+    width: 100%;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 1px 1px 1px #50555C;
+    border-radius: 14px;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px #000000;
+    border: 0px solid #000000;
+    height: 20px;
+    width: 40px;
+    border-radius: 12px;
+    background: #529DE1;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: 2px;
+  }
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #50555C;
+  }
+  input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 14px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 1px 1px 1px #50555C;
+    background: #50555C;
+    border-radius: 14px;
+    border: 0px solid #000000;
+  }
+  input[type=range]::-moz-range-thumb {
+    box-shadow: 0px 0px 0px #000000;
+    border: 0px solid #000000;
+    height: 20px;
+    width: 40px;
+    border-radius: 12px;
+    background: #529DE1;
+    cursor: pointer;
+  }
+  input[type=range]::-ms-track {
+    width: 100%;
+    height: 14px;
+    cursor: pointer;
+    animation: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  input[type=range]::-ms-fill-lower {
+    background: #50555C;
+    border: 0px solid #000000;
+    border-radius: 28px;
+    box-shadow: 1px 1px 1px #50555C;
+  }
+  input[type=range]::-ms-fill-upper {
+    background: #50555C;
+    border: 0px solid #000000;
+    border-radius: 28px;
+    box-shadow: 1px 1px 1px #50555C;
+  }
+  input[type=range]::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 0px 0px 0px #000000;
+    border: 0px solid #000000;
+    height: 20px;
+    width: 40px;
+    border-radius: 12px;
+    background: #529DE1;
+    cursor: pointer;
+  }
+  input[type=range]:focus::-ms-fill-lower {
+    background: #50555C;
+  }
+  input[type=range]:focus::-ms-fill-upper {
+    background: #50555C;
+  }
+
+
+
+
+/* _______________________________________________________________________________________________________________ */
+
+
+
+
+
+
+h2 {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.minus {
+    display: block;
+    margin-right: 10%;
+}
+
+.plus {
+    display: block;
+    margin-left: 10%;
+}
+
+.volume_box {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.launchpad {
+    margin-top: 5%;
+    border-radius: 10px;
+    border-width: 5px;
+    border: #50555C;
+    display: inline-block;
+    width: 340px;
+    height: 370px;
+    background-color: rgb(11, 12, 116);
+}
+
+.drums {
+    font-size: 33px;
+    margin-left: 110px;
+}
+
+/* стили для кнопок */
+button {
+    border-radius: 10px;
+    font-family: 'Roboto Mono', monospace;
+    box-shadow: 0 0 10px rgba(63, 61, 61, 0.5);
+    /* Параметры тени */
+    border: none;
+    border-width: 1.5px;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+}
+
+.button1 {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #ADFF2F;
+}
+
+.button2 {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #7FFF00;
+}
+
+.button3 {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #7CFC00;
+}
+
+.button4 {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #98FB98;
+}
+
+.button5 {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #90EE90;
+}
+
+.button6 {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #98FB98;
+}
+
+.button7 {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #228B22;
+}
+
+.button8 {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #008600;
+}
+
+.button9 {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #008600;
+}
+
+button:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+
+
+
+
+
+
+#button1__GUITARS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(255, 54, 47);
+}
+
+#button2__GUITARS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(255, 0, 0);
+}
+
+#button3__GUITARS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(240, 18, 11);
+}
+
+#button4__GUITARS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(255, 109, 109);
+}
+
+#button5__GUITARS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(228, 80, 80);
+}
+
+#button6__GUITARS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(255, 104, 104);
+}
+
+#button7__GUITARS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(139, 34, 34);
+}
+
+#button8__GUITARS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #860000;
+}
+
+#button9__GUITARS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #860000;
+}
+
+
+
+
+
+
+
+
+#button1__DRUMS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(47, 78, 255);
+}
+
+#button2__DRUMS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(47, 0, 255);
+}
+
+#button3__DRUMS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(80, 11, 240);
+}
+
+#button4__DRUMS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(123, 109, 255);
+}
+
+#button5__DRUMS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(107, 80, 228);
+}
+
+#button6__DRUMS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(144, 104, 255);
+}
+
+#button7__DRUMS{
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: rgb(50, 34, 139);
+}
+
+#button8__DRUMS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #1d0086;
+}
+
+#button9__DRUMS {
+    box-shadow: inset 0 0 7px 7px rgba(105, 105, 105, 0.267);
+    background-color: #190086;
+}
+
+
+
+
+.text {
+position: absolute;
+top: 650px;
+ left: 640px;
+font-size: 70px;
+font-family: 'Open Sans', sans-serif;
+color: rgb(226, 230, 11);
+}
+
+
+.theme__changer {
+    width: 75px;
+    height: 75px;
+    background-color: yellow;
+    opacity: 1;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 10px;
+    font-size: 20px;
+
+   
+  
+}
+.modal {
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    margin-top: 585px;
+    opacity: 0.7;
+    
+    
+}
+.modal__opn {
+    width: 400px;
+    height: 300px;
+    background-color: black;
+  margin-top: 570px;
+  display: inline-block;
+
+}
+.wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+
+    top: 0;
+display: none;
+}
+
+.red {
+width: 125px;
+height: 125px;
+display: inline-block;
+background-color: rgb(129, 14, 14);
+margin: 5px;
+margin-left: 50px;
+}
+.blue {
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+    background-color: rgb(19, 19, 121);
+    margin: 5px;
+    margin-left: 50px;
+}
+.green {
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+    background-color: rgb(27, 109, 27);
+    margin: 5px;
+    margin-left: 50px;
+}
+.gray {
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+    background-color: rgb(83, 5, 44);
+    margin: 5px;
+    margin-left: 50px;
+}
+
+@media (min-width:120px) and (max-width:767px) {
+    .launchpad {
+        margin-left: 0px;
+    }
+    button {
+        width: 27%;
+    }
+    .text {
+        display: none;
+    }
+    .theme__changer {
+        display: none;
+    }
+
+}
+@media (min-width:768px) and (max-width:1400px) {
+
+    .text {
+        display: none;
+    }
+    .theme__changer {
+        display: none;
+    }
+
+
+}
+ 
