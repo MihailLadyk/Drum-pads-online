@@ -649,7 +649,7 @@ button:hover {
 .text {
 position: absolute;
 top: 650px;
- left: 640px;
+ left: 420px;
 font-size: 70px;
 font-family: 'Open Sans', sans-serif;
 color: rgb(226, 230, 11);
@@ -727,12 +727,12 @@ margin-left: 50px;
     margin-left: 50px;
 }
 
-@media (min-width:120px) and (max-width:767px) {
+@media (min-width:320px) and (max-width:767px) {
     .launchpad {
         margin-left: 0px;
     }
     button {
-        width: 27%;
+        width: 29%;
     }
     .text {
         display: none;
