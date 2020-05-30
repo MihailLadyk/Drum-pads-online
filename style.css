@@ -140,7 +140,7 @@ button {
     border: none;
     border-width: 1.5px;
     margin: 5px;
-    width: 29%;
+    width: 100px;
     height: 100px;
     width: 29%;
 }
@@ -650,11 +650,7 @@ button:hover {
 .text {
 position: absolute;
 top: 650px;
-<<<<<<< HEAD
  left: 420px;
-=======
- left: 410px;
->>>>>>> c70d4d6bd307f43ebfdfa2304d4c7ae398ec50aa
 font-size: 70px;
 font-family: 'Open Sans', sans-serif;
 color: rgb(226, 230, 11);
@@ -677,7 +673,7 @@ color: rgb(226, 230, 11);
     width: 400px;
     height: 300px;
     background-color: black;
-    margin-top: 568px;
+    margin-top: 585px;
     opacity: 0.7;
     
     
